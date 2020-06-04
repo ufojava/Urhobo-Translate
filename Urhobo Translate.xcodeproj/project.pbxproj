@@ -13,6 +13,8 @@
 		033E959C2488DD3C00C20F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E959B2488DD3C00C20F1F /* Assets.xcassets */; };
 		033E959F2488DD3C00C20F1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033E959E2488DD3C00C20F1F /* Preview Assets.xcassets */; };
 		033E95A22488DD3C00C20F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033E95A02488DD3C00C20F1F /* LaunchScreen.storyboard */; };
+		033E95AC24899A4A00C20F1F /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033E95AB24899A4A00C20F1F /* DataLoader.swift */; };
+		033E95B024899AF400C20F1F /* UrhoboDictionay.json in Resources */ = {isa = PBXBuildFile; fileRef = 033E95AF24899AF400C20F1F /* UrhoboDictionay.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		033E959E2488DD3C00C20F1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		033E95A12488DD3C00C20F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		033E95A32488DD3C00C20F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		033E95AB24899A4A00C20F1F /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		033E95AF24899AF400C20F1F /* UrhoboDictionay.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UrhoboDictionay.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,9 @@
 		033E95942488DD3900C20F1F /* Urhobo Translate */ = {
 			isa = PBXGroup;
 			children = (
+				033E95AF24899AF400C20F1F /* UrhoboDictionay.json */,
+				033E95AA24899A2E00C20F1F /* Views */,
+				033E95A924899A1F00C20F1F /* Models */,
 				033E95952488DD3900C20F1F /* AppDelegate.swift */,
 				033E95972488DD3900C20F1F /* SceneDelegate.swift */,
 				033E95992488DD3900C20F1F /* ContentView.swift */,
@@ -73,6 +80,21 @@
 				033E959E2488DD3C00C20F1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		033E95A924899A1F00C20F1F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		033E95AA24899A2E00C20F1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				033E95AB24899A4A00C20F1F /* DataLoader.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +158,7 @@
 				033E95A22488DD3C00C20F1F /* LaunchScreen.storyboard in Resources */,
 				033E959F2488DD3C00C20F1F /* Preview Assets.xcassets in Resources */,
 				033E959C2488DD3C00C20F1F /* Assets.xcassets in Resources */,
+				033E95B024899AF400C20F1F /* UrhoboDictionay.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				033E95AC24899A4A00C20F1F /* DataLoader.swift in Sources */,
 				033E95962488DD3900C20F1F /* AppDelegate.swift in Sources */,
 				033E95982488DD3900C20F1F /* SceneDelegate.swift in Sources */,
 				033E959A2488DD3900C20F1F /* ContentView.swift in Sources */,
