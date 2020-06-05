@@ -12,26 +12,16 @@ import SwiftUI
 struct UrhoboDataStructure: Codable {
     
     
-    var id: Int
+    public var id: Int
     
-    var english: String
-    var urhobo: String
-    var category: String
-    
-    
-}
-
-
-
-//Class to define the structure
-class InitUrhoboDataStructure: ObservableObject {
-    
-    @Published var english = ""
-    @Published var urhobo = ""
-    @Published var category = ""
+    public var english: String
+    public var urhobo: String
+    public var category: String
     
     
 }
+
+
 
 
 //Convert JSON File
@@ -39,6 +29,11 @@ public class DataLoader: ObservableObject {
     
     
     @Published var dataStructure = [UrhoboDataStructure]()
+    
+       @Published var id = 0
+       @Published var english = ""
+       @Published var urhobo = ""
+       @Published var category = ""
     
     
     init() {

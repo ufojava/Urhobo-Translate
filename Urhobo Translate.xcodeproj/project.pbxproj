@@ -15,6 +15,7 @@
 		033E95A22488DD3C00C20F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 033E95A02488DD3C00C20F1F /* LaunchScreen.storyboard */; };
 		033E95AC24899A4A00C20F1F /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033E95AB24899A4A00C20F1F /* DataLoader.swift */; };
 		033E95B024899AF400C20F1F /* UrhoboDictionay.json in Resources */ = {isa = PBXBuildFile; fileRef = 033E95AF24899AF400C20F1F /* UrhoboDictionay.json */; };
+		033E95B2248AEEBC00C20F1F /* UrhoboView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033E95B1248AEEBC00C20F1F /* UrhoboView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		033E95A32488DD3C00C20F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		033E95AB24899A4A00C20F1F /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 		033E95AF24899AF400C20F1F /* UrhoboDictionay.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = UrhoboDictionay.json; sourceTree = "<group>"; };
+		033E95B1248AEEBC00C20F1F /* UrhoboView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrhoboView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				033E95AB24899A4A00C20F1F /* DataLoader.swift */,
+				033E95B1248AEEBC00C20F1F /* UrhoboView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				033E95962488DD3900C20F1F /* AppDelegate.swift in Sources */,
 				033E95982488DD3900C20F1F /* SceneDelegate.swift in Sources */,
 				033E959A2488DD3900C20F1F /* ContentView.swift in Sources */,
+				033E95B2248AEEBC00C20F1F /* UrhoboView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
